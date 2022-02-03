@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>Test</title>
+</head>
+<body>
+    <div class="video-container">
+        <video id="video" preload src="/lola.mp4"></video>
+        <div class="cont_control">
+            <div class="btn_controls">
+                <span class="btn_play" id="btn_play">
+                    <i class="fas fa-play"></i>
+                </span>
+                <span class="btn_step" id="btn_step">
+                    <i class="fas fa-step-forward"></i>
+                </span>
+                <input type="range" id="ctrlTimeVideo" min="0" max="1" value="0" step="0.001">
+                <span class="btn_play" id="timer">00:00</span>
+            </div>
+        </div>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
