@@ -2,12 +2,30 @@
   margin: 0;
   padding: 0;
 }
-.btn_play {
+
+.timeSpan {
+  display: flex;
+  position: relative;
   padding: 20px;
+}
+.btn{
+  padding: 10px;
 }
 .fas {
   color: white;
 }
+.time_sliderBox {
+  width: 100%;
+}
+.previewTime_card {
+  position: absolute;
+  bottom: 90px;
+  display: none;
+  width: 100px;
+  height: 100px;
+  background-color: #f5f5f5;
+}
+
 .btn_controls {
   position: relative;
   width: 100%;
@@ -46,3 +64,4 @@
   height: 20px;
   border-radius: 5px;
 }
+
